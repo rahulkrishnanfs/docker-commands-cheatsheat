@@ -6,7 +6,8 @@ Docker-machine will help to provision new docker hosts on different cloud platfo
 
 ### Provisioning machine on the Digital Ocean Cloud provider
 ```markdown
-$docker-machine create --driver digitalocean --digitalocean-access-token <token> <name of the machine>
+$docker-machine create --driver digitalocean \
+      --digitalocean-access-token <token> <name of the machine>
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
