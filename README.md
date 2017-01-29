@@ -42,5 +42,5 @@ $docker-machine inspect <node>
 eval "($docker-machine env <node>)"
 ```
 
-#Follow me on Twitter [@rahulkrishnanra ](https://twitter.com/intent/tweet?screen_name=rahulkrishnanra).
+###Ask me on Twitter [@rahulkrishnanra ](https://twitter.com/intent/tweet?screen_name=rahulkrishnanra).
 
