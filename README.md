@@ -28,6 +28,19 @@ $docker-machine ls
 ```markdown
 $docker-machine stop <node>
 ```
+### Start the node
+```markdown
+$docker-machine start <node>
+```
+### Inspect the details of the node
+```markdown
+$docker-machine inspect <node>
+```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Get into the node environment without doing docker-machine ssh and configure your shell 
+```markdown
+eval "($docker-machine env <node>)"
+```
+
+For more details see [GitHub Flavored Markdown](<a href="https://twitter.com/intent/tweet?screen_name=rahulkrishnanra" class="twitter-mention-button" data-show-count="false">Tweet to @rahulkrishnanra</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>).
 
