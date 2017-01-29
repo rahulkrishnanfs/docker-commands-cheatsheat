@@ -42,5 +42,5 @@ $docker-machine inspect <node>
 eval "($docker-machine env <node>)"
 ```
 
-For more details see [GitHub Flavored Markdown](<a href="https://twitter.com/intent/tweet?screen_name=rahulkrishnanra" class="twitter-mention-button" data-show-count="false">Tweet to @rahulkrishnanra</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>).
+#Follow me on Twitter [@rahulkrishnanra ](https://twitter.com/intent/tweet?screen_name=rahulkrishnanra).
 
