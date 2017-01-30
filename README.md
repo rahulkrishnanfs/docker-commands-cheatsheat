@@ -16,22 +16,32 @@ $docker-machine create --driver digitalocean \
 ```markdown
 $docker-machine ssh <node>
 ```
+
 ### list the node ip address
 ```markdown
 $docker-machine ip <node>
 ```
+
 ### List the nodes
 ```markdown
 $docker-machine ls
 ```
+
 ### Stop the node
 ```markdown
 $docker-machine stop <node>
 ```
+
 ### Start the node
 ```markdown
 $docker-machine start <node>
 ```
+
+### Restart the node
+```markdown
+$docker-machine restart <node>
+```
+
 ### Inspect the details of the node
 ```markdown
 $docker-machine inspect <node>
@@ -40,6 +50,11 @@ $docker-machine inspect <node>
 ### Get into the node environment without doing docker-machine ssh and configure your shell 
 ```markdown
 eval "($docker-machine env <node>)"
+```
+
+###To re-run the provision
+```markdown
+docker-machine provision <node>
 ```
 
 ###Ask me on Twitter [@rahulkrishnanra ](https://twitter.com/intent/tweet?screen_name=rahulkrishnanra).
