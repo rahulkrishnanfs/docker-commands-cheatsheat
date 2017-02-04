@@ -6,7 +6,7 @@ Docker-machine will help to provision new docker hosts on different cloud platfo
 
 ## Provisioning the server on Digital Ocean Cloud provider
 
-### Create new node in digitalOcean
+### Create a new node in the digitalocean infrastructure
 ```markdown
 $docker-machine create --driver digitalocean \
       --digitalocean-access-token <token> <name of the machine>
@@ -53,6 +53,7 @@ eval "($docker-machine env <node>)"
 ```
 
 ###To re-run the provision
+
 ```markdown
 docker-machine provision <node>
 ```
